@@ -18,13 +18,15 @@ Hello, world!
 * List 2
 * List 3
 
+1. One
+2. Two
+3. Three
+
 Horizontal rule:
 ---
 
 'Inline code' with backticks
 
-...
-# code block
-print hello world
-print this is cool
-...
+....# code block
+....print 'hello world'
+....print 'this is cool'
