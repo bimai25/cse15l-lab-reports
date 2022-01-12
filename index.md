@@ -8,9 +8,9 @@ Hello, world!
 
 ## This is a Heading 2
 
-[Link](https://bimai25.github.io/cse15l-lab-reports/test.html)
+[Test Page](https://bimai25.github.io/cse15l-lab-reports/test.html)
 
-![Image](http://ucsdnews.ucsd.edu/thisweek/2011/09/welcome_slideshow/7.JPG)
+![King Triton!!](http://ucsdnews.ucsd.edu/thisweek/2011/09/welcome_slideshow/7.JPG)
 
 > Some kind of Blockquote
 
