@@ -25,8 +25,10 @@ Hello, world!
 Horizontal rule:
 ---
 
-'Inline code' with backticks
+`Inline code` with backticks
 
-....# code block
-....print 'hello world'
-....print 'this is cool'
+```
+# code block
+print 'hello world'
+print 'this is cool'
+```
