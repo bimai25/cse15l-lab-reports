@@ -10,6 +10,8 @@ Hello, world!
 
 [Test Page](https://bimai25.github.io/cse15l-lab-reports/test.html)
 
+https://bimai25.github.io/cse15l-lab-reports/lab-report-1-week-2.html
+
 ![King Triton!!](http://ucsdnews.ucsd.edu/thisweek/2011/09/welcome_slideshow/7.JPG)
 
 > Some kind of Blockquote
@@ -33,3 +35,4 @@ print 'hello world'
 print 'this is cool'
 ```
 I've added more stuff here
+
