@@ -16,7 +16,8 @@
 ![Image](terminalMenu.PNG)
 
 ## Trying Some Commands
-- When logged into the UCSD server there are a number of commands that can be used
+- When logged into the UCSD server there are a number of commands that can be used, many similar to ones that can be used in the standard terminal
+    - **Note:** The server runs on Linux so commands must be Linux commands
 - Try `ls` which displays all the files in the directory
 - `cd <directory name>` will change the current directory
 - Typing `logout` will log you out of the server which will look like this
