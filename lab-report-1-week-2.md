@@ -14,6 +14,13 @@
 - Open a command terminal and type `ssh <your @ieng6.ucsd.edu account>`, hit enter, type in your password, and then answer yes to any pop-up question. If completed correctly, the terminal should look like this:
 ![Image](terminalMenu.PNG)
 
+## Trying Some Commands
+- When logged into the UCSD server there are a number of commands that can be used
+- Try `ls` which displays all the files in the directory
+- `cd <directory name>` will change the current directory
+- Typing `logout` will log you out of the server which will look like this
+![Image](command_example.PNG)
+
 ## Moving Files With scp
 - Files can be moved from your personal computer to the server to be run using the `scp` command
 - Running `scp <file name><ieng6 account>` will copy the file from your computer to the UCSD server
