@@ -22,7 +22,7 @@
 - Typing `logout` will log you out of the server which will look like this
 ![Image](command_example.PNG)
 
-## Moving Files With scp
+## Moving Files With `scp`
 - Files can be moved from your personal computer to the server to be run using the `scp` command
 - Running `scp <file name><ieng6 account>:~/.` will copy the file from your computer to the UCSD server
     - **Note:** make sure your client directory is set to the folder the file is before running `scp`
