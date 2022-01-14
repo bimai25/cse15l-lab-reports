@@ -12,7 +12,6 @@
  - Every account will be of the form **cse15lwi*xyz*@ieng6.ucsd.edu** where *xyz* is the ID specific to your account
     - You may have to change your password to activate your ieng6 account and this change may take  acouple of minutes to apply
 - Open a command terminal and type `ssh <your @ieng6.ucsd.edu account>`, hit enter, type in your password, and then answer yes to any pop-up question. If completed correctly, the terminal should look like this:
-
 ![Image](terminalMenu.PNG)
 
 ## Trying Some Commands
@@ -29,7 +28,6 @@
     - **Note:** make sure your client directory is set to the folder the file is before running `scp`
 ![Image](scp_example1.PNG)
 - On the server, you can run your traditional `javac` and `java` commands, or run `vim <file name>` to ensure the file copied over correctly (as it prints the contents of the file).
-
 ![Image](java_example.PNG)
 
 ## Setting an SSH Key
