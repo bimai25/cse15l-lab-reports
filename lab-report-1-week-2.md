@@ -25,7 +25,7 @@
 
 ## Moving Files With scp
 - Files can be moved from your personal computer to the server to be run using the `scp` command
-- Running `scp <file name><ieng6 account>~/.` will copy the file from your computer to the UCSD server
+- Running `scp <file name><ieng6 account>:~/.` will copy the file from your computer to the UCSD server
     - **Note:** make sure your client directory is set to the folder the file is before running `scp`
 ![Image](scp_example1.PNG)
 - On the server, you can run your traditional `javac` and `java` commands, or run `vim <file name>` to ensure the file copied over correctly (as it prints the contents of the file).
