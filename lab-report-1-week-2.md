@@ -1,6 +1,5 @@
-[Back](https://bimai25.github.io/cse15l-lab-reports/index.html)
 # Lab Report 1 - Remote Access
-
+[Back](https://bimai25.github.io/cse15l-lab-reports/index.html)
 ## Installing VS Code
 - Head to [VS Code](https://code.visualstudio.com/) and download the version of VS Code best suited for your computer
 ![Image](VS_Code.PNG)
@@ -41,5 +40,7 @@
 
 ## Optimizing Remote Running
 - Commands can be strung together to be run sequentially by separating them with a semicolon in the command line
-- Running `ssh <ieng6 account>` and putting a command in quotatino makrs will immediately run the command on the UCSD server `ssh <ieng6 account> "ls -a"`
+- Running `ssh <ieng6 account>` and putting a command in quotation mamarkers krs will immediately run the command on the UCSD server `ssh <ieng6 account> "ls -a"`
+    - Ex: `ssh <ieng6 account> javac WhereAmI.java ; java WhereAmI` will compile and run the java file `WhereAmI.java` on the server
+    ![Image](multiple_commands.PNG)
 - Hitting the up and down arrow keys will rotate through recently run comamnds if you have to resuse commands
