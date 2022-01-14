@@ -27,8 +27,7 @@
 - Running `scp <file name><ieng6 account>:~/.` will copy the file from your computer to the UCSD server
     - **Note:** make sure your client directory is set to the folder the file is before running `scp`
 ![Image](scp_example1.PNG)
-- On the server, you can run your traditional `javac` and `java` commands, or run `vim <file name>` to ensure the file copied over correctly (as it prints the contents of the file).
-![Image](java_example.PNG)
+- On the server, you can run your traditional `javac` and `java` commands, or run `vim <file name>` to ensure the file copied over correctly (as it prints the contents of the file). ![Image](java_example.PNG)
 
 ## Setting an SSH Key
 - Setting up an SSH key allows us to log into our @ieng6 accounts without repeatedly typing in our password by generating a pair of keys (one of which will be uploaded to the UCSD server) which can be checked against each other for authentication
