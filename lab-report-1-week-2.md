@@ -20,6 +20,7 @@
     - **Note:** make sure your client directory is set to the folder the file is before running `scp`
 ![Image](scp_example.PNG)
 - On the server, you can run your traditional `javac` and `java` commands, or run `vim <file name>` to ensure the file copied over correctly (as it prints the contents of the file).
+
 ![Image](java_example.PNG)
 
 ## Setting an SSH Key
