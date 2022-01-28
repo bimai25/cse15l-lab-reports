@@ -16,3 +16,9 @@ Link to failure inducing file: [Joe's Test File 6](https://github.com/bimai25/ma
 The new implementation of `MarkdownParse.java` incudes a helper method `isOfLinkForm` which fixes the problem of the code breaking when there are brackets or parentheses in the links. However, the code incorrectly prints an image link as seen in the image when `MarkdownParse` runs on Joe's `test-file6.md`. The output should have been an empty array of no links.
 
 ---
+## Code Change 3
+![Image](./screenshots/lab-report-2/code-change3.png)
+Link to failure inducing file: [Joe's Test File 8](https://github.com/bimai25/markdown-parse/blob/290d6b064c6037beb40367f502cb17c8e8f524d9/joe-test-files/test-file8.md)
+### Failing Output
+![Image](./screenshots/lab-report-2/symptom3.png)
+An update to the helper method `isOfLinkForm` fixes the issue where images were added as links. However, the instance where a link is not specified in the double brackets, e.g `[Link](something.com)`is a properly formatted link while `[](something.com)` is not a properly formated link, includes the url in the return statement. `test-file8.md` returns the url when it should return an empty array because it is not fully formatted as a link.
