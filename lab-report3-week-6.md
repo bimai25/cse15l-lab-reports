@@ -1,5 +1,5 @@
 # Lab Report 3 - Streamlining SSH Configuration
-
+[Back](https://bimai25.github.io/cse15l-lab-reports/index.html)
 ## Creating the SSH Config File
 ![Image](./screenshots/lab-report-3/config_vscode.png)
 The `ssh` process of logging into ieng6 can be streamlined through the command `ssh ieng6`. However, in order ot make this command work, a file named `config` needs to be crated in the `.ssh` directory and filled with the information above.
