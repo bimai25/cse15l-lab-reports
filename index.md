@@ -4,4 +4,4 @@ ___
 
 [Lab Report 2](https://bimai25.github.io/cse15l-lab-reports/lab-report2-week-4.html)
 
-
+[Lab Report 3](https://bimai25.github.io/cse15l-lab-reports/lab-report3-week-6.html)
