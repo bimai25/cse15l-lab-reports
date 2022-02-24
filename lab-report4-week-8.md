@@ -3,7 +3,7 @@
 ## Snippet 1
 ### Markdown Preview
 ![Image](./screenshots/lab-report-4/snippet-1-prev.png)
-### jUnit Tester Code
+### JUnit Tester Code
 ```
 @Test
     public void getLinksLabReportTest1() throws IOException{
@@ -12,3 +12,4 @@
         assertEquals(List.of("`google.com", "google.com", "ucsd.edu"),
             MarkdownParse.getLinks(contents));
     }
+```
