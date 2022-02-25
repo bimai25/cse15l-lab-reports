@@ -59,3 +59,11 @@
 ![Image](./screenshots/lab-report-4/myTest3.png)
 ### Reviewed Implementation Tester Output
 ![Image](./screenshots/lab-report-4/otherTest3.png)
+___
+## Code Snippet Questions
+### Snippet 1
+Yes, I think that there is a small code change that can be made to make the code in snippet 1 work and all related cases with backticks. Since our code looks at the markdown file line by line, we can check for any backticks within the line. If there is, we can ignore anything between the backticks, or even the entire line.
+### Snippet 2
+Yes, I think there is a small code change that can be made to make the code in snippet 2 work and all related cases for nested parentheses and related characters. The code got every link right except the first one, which is indicative that a small fix can make the code function properly. Our code already has a version of parentheses matching ability, so refining that portion of the code could lead to the snippet working.
+### Snippet 3
+No, making snippet 3 work and all related cases would with newlines would require a more involved change. Since our code parses the markdown file by line, it assumes each line contains a link container and the link itself. Making our implementation work for the case with newline characters would involve a more robust parentheses matching over multiple indexes in our parsed markdown file array.
